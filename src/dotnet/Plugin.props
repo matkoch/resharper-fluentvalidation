@@ -1,0 +1,18 @@
+<Project>
+
+  <PropertyGroup>
+    <SdkVersion>2020.3.0</SdkVersion>
+
+    <Title>FluentValidation</Title>
+    <Description>Support plugin for FluentValidation. A validation library for .NET that uses a fluent interface to construct strongly-typed validation rules.</Description>
+
+    <Authors>Matthias Koch</Authors>
+    <Copyright>Copyright $([System.DateTime]::Now.Year) Matthias Koch</Copyright>
+    <PackageTags>validation fluent aspnet</PackageTags>
+
+    <PackageProjectUrl>https://github.com/matkoch/resharper-fluentvalidation</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/matkoch/resharper-fluentvalidation/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/FluentValidation/FluentValidation/master/fv-small.png</PackageIconUrl>
+  </PropertyGroup>
+
+</Project>
