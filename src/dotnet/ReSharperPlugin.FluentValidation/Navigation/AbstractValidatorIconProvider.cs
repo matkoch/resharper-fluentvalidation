@@ -1,3 +1,5 @@
+using System.Diagnostics;
+using JetBrains.Application.Notifications;
 using JetBrains.Lifetimes;
 using JetBrains.ProjectModel;
 using JetBrains.ReSharper.Psi;
@@ -11,9 +13,20 @@ namespace ReSharperPlugin.FluentValidation.Navigation
     {
         public AbstractValidatorIconProvider(
             Lifetime lifetime,
-            PsiIconManager psiIconManager)
+            PsiIconManager psiIconManager,
+            UserNotifications userNotifications)
         {
             psiIconManager.AddExtension(lifetime, this);
+
+            userNotifications.CreateNotification(lifetime, body: "body", title: "title",
+                executed: new UserNotificationCommand("Open Sponsor website", () =>
+                {
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = "https://google.com",
+                        UseShellExecute = true
+                    });
+                }));
         }
 
         public IconId GetImageId(
