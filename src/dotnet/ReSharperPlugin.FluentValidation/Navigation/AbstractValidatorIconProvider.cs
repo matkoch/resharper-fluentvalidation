@@ -13,20 +13,9 @@ namespace ReSharperPlugin.FluentValidation.Navigation
     {
         public AbstractValidatorIconProvider(
             Lifetime lifetime,
-            PsiIconManager psiIconManager,
-            UserNotifications userNotifications)
+            PsiIconManager psiIconManager)
         {
             psiIconManager.AddExtension(lifetime, this);
-
-            userNotifications.CreateNotification(lifetime, body: "body", title: "title",
-                executed: new UserNotificationCommand("Open Sponsor website", () =>
-                {
-                    Process.Start(new ProcessStartInfo
-                    {
-                        FileName = "https://google.com",
-                        UseShellExecute = true
-                    });
-                }));
         }
 
         public IconId GetImageId(

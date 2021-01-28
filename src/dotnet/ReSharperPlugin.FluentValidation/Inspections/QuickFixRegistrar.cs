@@ -1,10 +1,8 @@
 ﻿using JetBrains.Application;
 using JetBrains.Lifetimes;
 using JetBrains.ReSharper.Feature.Services.QuickFixes;
-using JetBrains.ReSharper.Intentions.CSharp.QuickFixes;
-using ReSharperPlugin.FluentValidation.Inspections;
 
-namespace ReSharperPlugin.FluentValidation
+namespace ReSharperPlugin.FluentValidation.Inspections
 {
     [ShellComponent]
     internal class QuickFixRegistrar
