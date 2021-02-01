@@ -11,3 +11,5 @@
 - Validator icon in completion and navigation
 - Code inspections for mismatched async/sync calls
 - Postfix completion `validate`
+
+![FluentValidation Support features](features.png)
