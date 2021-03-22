@@ -11,6 +11,6 @@
 - [Reusable property validators](https://docs.fluentvalidation.net/en/latest/custom-validators.html#reusable-property-validators) via `property_validator` and `rule_builder` live templates
 - Validator icon in completion and navigation
 - Code inspections for mismatched async/sync calls
-- Postfix completion `validate`
+- Postfix template `.validate`
 
 ![FluentValidation Support features](features.png)

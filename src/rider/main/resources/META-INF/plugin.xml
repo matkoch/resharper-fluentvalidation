@@ -9,6 +9,13 @@
   <description>
 <![CDATA[
 <p>Support plugin for FluentValidation. A validation library for .NET that uses a fluent interface to construct strongly-typed validation rules.</p>
+<ul>
+  <li><a href="https://docs.fluentvalidation.net/en/latest/custom-validators.html#writing-a-custom-validator">Custom validators</a> via <code>validator</code> and <code>rule</code> live templates</li>
+  <li><a href="https://docs.fluentvalidation.net/en/latest/custom-validators.html#reusable-property-validators">Reusable property validators</a> via <code>property_validator</code> and <code>rule_builder</code> live templates</li>
+  <li>Validator icon in completion and navigation</li>
+  <li>Code inspections for mismatched async/sync calls</li>
+  <li><a href="https://www.jetbrains.com/help/rider/Postfix_Templates.html">Postfix template</a> <code>.validate</code></li>
+</ul>
 ]]>
   </description>
 
