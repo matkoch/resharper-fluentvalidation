@@ -1,6 +1,6 @@
 <idea-plugin require-restart="true">
   <id>fluentvalidation-rider</id>
-  <name>FluentValidation</name>
+  <name>FluentValidation Support</name>
   <version>_PLACEHOLDER_</version>
   <vendor url="https://github.com/matkoch/resharper-fluentvalidation">Matthias Koch</vendor>
   <idea-version since-build="_PLACEHOLDER_" until-build="_PLACEHOLDER_" />
@@ -8,7 +8,7 @@
 
   <description>
 <![CDATA[
-<p>Support plugin for FluentValidation. A validation library for .NET that uses a fluent interface to construct strongly-typed validation rules.</p>
+<p>Support plugin for <a href="https://fluentvalidation.net/">FluentValidation</a>. A validation library for .NET that uses a fluent interface to construct strongly-typed validation rules.</p>
 <ul>
   <li><a href="https://docs.fluentvalidation.net/en/latest/custom-validators.html#writing-a-custom-validator">Custom validators</a> via <code>validator</code> and <code>rule</code> live templates</li>
   <li><a href="https://docs.fluentvalidation.net/en/latest/custom-validators.html#reusable-property-validators">Reusable property validators</a> via <code>property_validator</code> and <code>rule_builder</code> live templates</li>
