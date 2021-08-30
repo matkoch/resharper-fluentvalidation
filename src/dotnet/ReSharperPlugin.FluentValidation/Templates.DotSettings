@@ -1,5 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/CustomTools/CustomToolsData/@EntryValue"></s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B8F373CB2E3A942A1A7168924D98DB5/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B8F373CB2E3A942A1A7168924D98DB5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B8F373CB2E3A942A1A7168924D98DB5/Description/@EntryValue">FluentValidation Rule</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B8F373CB2E3A942A1A7168924D98DB5/Field/=property/@KeyIndexDefined">False</s:Boolean>
@@ -19,6 +19,7 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B8F373CB2E3A942A1A7168924D98DB5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B8F373CB2E3A942A1A7168924D98DB5/Text/@EntryValue">RuleFor(x =&gt; x.$PROPERTY$).$RULE$;
 $END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6EFBDF0CE9FA6C4F8BE73498D3AAB246/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6EFBDF0CE9FA6C4F8BE73498D3AAB246/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6EFBDF0CE9FA6C4F8BE73498D3AAB246/Description/@EntryValue">FluentValidation Custom Validator</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6EFBDF0CE9FA6C4F8BE73498D3AAB246/Field/=type/@KeyIndexDefined">False</s:Boolean>
@@ -40,7 +41,6 @@ $END$</s:String>
         $END$
     }
 }</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8ED0D4A6166A4347B0F03F1E3F42E8CB/@KeyIndexDefined">False</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A24C4F0DD25C4B479705CACF315AA9D3/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A24C4F0DD25C4B479705CACF315AA9D3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A24C4F0DD25C4B479705CACF315AA9D3/Description/@EntryValue">FluentValidation Custom Property Validator</s:String>
