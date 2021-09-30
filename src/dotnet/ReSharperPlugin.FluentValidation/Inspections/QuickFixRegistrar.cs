@@ -1,13 +1,16 @@
-﻿using JetBrains.Application;
+﻿using System;
+using System.Collections.Generic;
+using JetBrains.Application;
 using JetBrains.Lifetimes;
 using JetBrains.ReSharper.Feature.Services.QuickFixes;
+using JetBrains.Util;
 
 namespace ReSharperPlugin.FluentValidation.Inspections
 {
     [ShellComponent]
-    internal class QuickFixRegistrar
+    internal class QuickFixRegistrar : IQuickFixesProvider
     {
-        public QuickFixRegistrar(IQuickFixes table)
+        public void Register(IQuickFixesRegistrar table)
         {
             table.RegisterQuickFix<NonAsyncValidationHighlighting>(
                 Lifetime.Eternal,
@@ -18,5 +21,7 @@ namespace ReSharperPlugin.FluentValidation.Inspections
                 h => new ValidationMethodFix(h.ReferenceExpression, h.Name),
                 typeof(ValidationMethodFix));
         }
+
+        public IEnumerable<Type> Dependencies => EmptyArray<Type>.Instance;
     }
 }
