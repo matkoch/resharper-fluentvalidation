@@ -17,6 +17,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'fluentvalidation'
+rootProject.name = 'ReSharperPlugin.FluentValidation'
 
 include ':protocol'
