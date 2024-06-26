@@ -1,7 +1,7 @@
 ﻿<Project>
 
   <PropertyGroup>
-    <SdkVersion>2024.2.0-eap02</SdkVersion>
+    <SdkVersion>2024.2.0-eap04</SdkVersion>
 
     <Title>FluentValidation</Title>
     <Description>Support plugin for FluentValidation. A validation library for .NET that uses a fluent interface to construct strongly-typed validation rules.</Description>
