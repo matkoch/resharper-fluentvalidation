@@ -1,6 +1,7 @@
 using System.Collections.Concurrent;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
+using JetBrains.Application.Parts;
 using JetBrains.Diagnostics;
 using JetBrains.Metadata.Reader.API;
 using JetBrains.ReSharper.Psi;
@@ -60,7 +61,7 @@ namespace ReSharperPlugin.FluentValidation.Psi
             return DeclaredElementEqualityComparer.TypeElementComparer.Equals(typeElement, predefinedTypeElement);
         }
 
-        [PsiComponent]
+        [PsiComponent(Instantiation.DemandAnyThreadSafe)]
         internal class FluentValidationPredefinedTypeCache : InvalidatingPsiCache
         {
             private readonly ConcurrentDictionary<IPsiModule, FluentValidationPredefinedType> _predefinedTypes =

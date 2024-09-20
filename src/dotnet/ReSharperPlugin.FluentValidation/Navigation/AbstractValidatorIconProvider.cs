@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using JetBrains.Application.Notifications;
+using JetBrains.Application.Parts;
 using JetBrains.Lifetimes;
 using JetBrains.ProjectModel;
 using JetBrains.ReSharper.Psi;
@@ -8,7 +9,7 @@ using ReSharperPlugin.FluentValidation.Psi;
 
 namespace ReSharperPlugin.FluentValidation.Navigation
 {
-    [SolutionComponent]
+    [SolutionComponent(Instantiation.DemandAnyThreadSafe)]
     public class AbstractValidatorIconProvider : IDeclaredElementIconProvider
     {
         public AbstractValidatorIconProvider(
